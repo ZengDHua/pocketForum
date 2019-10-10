@@ -6,8 +6,6 @@ import com.pocket.dto.GithubUser;
 import okhttp3.*;
 import org.springframework.stereotype.Component;
 
-import java.io.IOException;
-
 /**
  * @auther Akie
  * @date 2019/10/10 13:01
