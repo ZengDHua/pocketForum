@@ -11,9 +11,13 @@
 
 [Spring database](https://docs.spring.io/spring-boot/docs/2.0.0.RC1/reference/htmlsingle/#boot-features-embedded-database-support)
 
+[Lombok](https://projectlombok.org/setup/maven)
+
 
 ## 工具
 [Visual Paradigm](https://www.visual-paradigm.com/cn/)
+
+[Flyway](https://flywaydb.org/getstarted/firststeps/maven)
 
 ## 脚本
 ```sql
@@ -28,6 +32,7 @@ create table USER
 	constraint USER_PK
 		primary key (ID)
 );
-
-
+```
+```bash
+mvn flyway:migrate
 ```

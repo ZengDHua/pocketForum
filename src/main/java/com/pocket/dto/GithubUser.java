@@ -1,9 +1,12 @@
 package com.pocket.dto;
 
+import lombok.Data;
+
 /**
  * @auther Akie
  * @date 2019/10/10 13:32
  */
+@Data
 public class GithubUser {
     private Long id;
 
@@ -11,36 +14,5 @@ public class GithubUser {
 
     private String bio;
 
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getBio() {
-        return bio;
-    }
-
-    public void setBio(String bio) {
-        this.bio = bio;
-    }
-
-    @Override
-    public String toString() {
-        return "GithubUser{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", bio='" + bio + '\'' +
-                '}';
-    }
+    private String avatar_url;
 }
