@@ -13,6 +13,8 @@
 
 [Lombok](https://projectlombok.org/setup/maven)
 
+[Thymeleaf](https://www.thymeleaf.org/doc/tutorials/3.0/usingthymeleaf.html#using-theach)
+
 
 ## 工具
 [Visual Paradigm](https://www.visual-paradigm.com/cn/)
