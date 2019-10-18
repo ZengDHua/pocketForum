@@ -15,6 +15,8 @@
 
 [Thymeleaf](https://www.thymeleaf.org/doc/tutorials/3.0/usingthymeleaf.html#using-theach)
 
+[Spring interceptor](https://docs.spring.io/spring/docs/5.0.3.RELEASE/spring-framework-reference/web.html#mvc-handlermapping-interceptor)
+
 
 ## 工具
 [Visual Paradigm](https://www.visual-paradigm.com/cn/)
