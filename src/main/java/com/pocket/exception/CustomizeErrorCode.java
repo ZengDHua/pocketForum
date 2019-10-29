@@ -11,7 +11,10 @@ public enum CustomizeErrorCode implements ICustomizeErrorCode {
     NO_LOGIN(1003,"当前操作需要登录，请登录后重试"),
     SYS_ERROR(1004,"服务器GG啦，稍后再来吧"),
     TYPE_PARAM_WRONG(1005,"评论类型错误或不存在"),
-    COMMENT_NOT_FOUND(1005,"回复的评论不存在"),
+    COMMENT_NOT_FOUND(1006,"回复的评论不存在"),
+    CONTENT_IS_EMPTY(1007,"回复内容为空"),
+    READ_NOTIFICATION_FAIL(1008,"进错家了吧"),
+    NOTIFICATION_NOT_FOUND(1009,"消息不见啦"),
     ;
 
     @Override
